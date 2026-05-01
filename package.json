@@ -1,0 +1,34 @@
+{
+  "name": "gravix-skill",
+  "version": "1.0.3",
+  "description": "Global Software Intelligence System for AI coding agents. Installs a structured .agents/ directory with skills, memory, and code templates into any project.",
+  "keywords": [
+    "ai",
+    "agent",
+    "antigravity",
+    "erp",
+    "saas",
+    "code-generation",
+    "developer-tools",
+    "scaffold",
+    "memory",
+    "fullstack"
+  ],
+  "author": "Tbktekno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tbktekno/Gravix-Antigravity.git"
+  },
+  "bin": {
+    "gravix-skill": "bin/gravix.js"
+  },
+  "files": [
+    "bin/",
+    ".agents/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

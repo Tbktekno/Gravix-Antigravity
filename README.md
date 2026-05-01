@@ -1,5 +1,23 @@
 # Antigravity Global Software Intelligence System
 
+## Quick Install
+
+Run the following command inside any project folder to install the system:
+
+```
+npx gravix-skill install
+```
+
+This copies the complete `.agents/` directory into your project. No dependencies are installed. Node.js 16 or higher is required.
+
+To overwrite an existing installation:
+
+```
+npx gravix-skill install --force
+```
+
+---
+
 ## Overview
 
 This repository contains a structured intelligence system designed to be used by an AI coding agent (Antigravity) across any software project. The system gives the agent long-term memory, architecture awareness, domain knowledge, and the ability to generate consistent, production-ready fullstack modules regardless of project type.

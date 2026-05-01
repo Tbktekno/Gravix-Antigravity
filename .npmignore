@@ -1,0 +1,11 @@
+# Exclude development and version control files
+.git/
+.gitignore
+
+# Exclude editor configs
+.vscode/
+.idea/
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
